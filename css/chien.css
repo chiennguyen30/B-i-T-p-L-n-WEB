@@ -20,8 +20,8 @@ a
 .menu{
 	width: 100%;
 	height: 100px;
-	background: #fff;
-	font-weight: bold;
+	background-color : rebeccapurple;
+
 }
 
 .menu img{
@@ -32,21 +32,26 @@ a
 	float: left;
 	object-fit: cover;
 	border-radius:50% ;
+	
 }
 .ti-search{
 	margin-right: 20px;
 	color: black;
 	font-size: 20px;
+	
 }
 .ti-angle-down{
 	font-size: 12px;
 	color: #ccc;
 	margin-left: 5px;
 }
+
 ul.root > li{
 	list-style: none;
 	float: left;
 	position: relative;
+	font-weight: bolder;
+	
 
 }
 ul.root > li > a{
@@ -93,13 +98,13 @@ ul.root > li:hover ul.submenu{
  }
 
 .submenu_right{
-	width: 780px;
+	width: 580px;
 	height: 100px;
 	float: left;
 	background: white;
 }
 .submenu_right div{
-	margin-left: 400px;
+	margin-left: 266px;
 }
 .submenu_right li {
 	list-style: none;
@@ -159,6 +164,10 @@ h1{
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 30px;
+}
+.content_header center button{
+	border-radius:5px;
+	font-weight: bold;
 }
 button{
 	width: 200px;
@@ -263,6 +272,7 @@ ul.product-list div.buy a:nth-child(3){
 	height: 260px;
 	object-fit: cover;
 	margin-left: 7px;
+	border-radius: 50%;
 }
 .img_last_bottom img{
 	width: 270px;
@@ -278,6 +288,7 @@ ul.product-list div.buy a:nth-child(3){
 	font-weight: 800;
 	font-size: 12px;
 	margin-bottom: 40px;
+	border-radius: 10px;
 }
 hr{
 	display: block;
@@ -286,7 +297,7 @@ hr{
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 3px;
+    border-width: 2px;
 }
 
 
@@ -294,7 +305,7 @@ hr{
 
 .footer{
 	width: 100%;
-	height: 340px;
+	height: 250px;
 }
 .footer div {
 	float: left;
@@ -351,4 +362,10 @@ hr{
 .footer_text_right a{
 	text-decoration: none;
 	font-size: 30px;
+}
+
+.text_last{
+	margin-top: -10px;
+	color: hwb(41 80% 0% / 0.246);
+	margin-left: 10px;
 }
